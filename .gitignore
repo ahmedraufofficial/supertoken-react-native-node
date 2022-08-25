@@ -1,0 +1,64 @@
+# OSX
+#
+supertoken/.DS_Store
+
+# Xcode
+#
+supertoken/build/
+supertoken/*.pbxuser
+supertoken/!default.pbxuser
+supertoken/*.mode1v3
+supertoken/!default.mode1v3
+supertoken/*.mode2v3
+supertoken/!default.mode2v3
+supertoken/*.perspectivev3
+supertoken/!default.perspectivev3
+supertoken/xcuserdata
+supertoken/*.xccheckout
+supertoken/*.moved-aside
+supertoken/DerivedData
+supertoken/*.hmap
+supertoken/*.ipa
+supertoken/*.xcuserstate
+
+# Android/IntelliJ
+#
+supertoken/build/
+supertoken/.idea
+supertoken/.gradle
+supertoken/local.properties
+supertoken/*.iml
+supertoken/*.hprof
+
+# node.js
+#
+supertoken/node_modules/
+supertoken/npm-debug.log
+supertoken/yarn-error.log
+
+# BUCK
+supertoken/buck-out/
+supertoken/\.buckd/
+supertoken/*.keystore
+supertoken/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+supertoken/*/fastlane/report.xml
+supertoken/*/fastlane/Preview.html
+supertoken/*/fastlane/screenshots
+
+# Bundle artifact
+supertoken/*.jsbundle
+
+# Ruby / CocoaPods
+supertoken/ios/Pods/
+supertoken/vendor/bundle/
+
+#server
+server/node_modules
